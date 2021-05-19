@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6,
     padding-bottom: 0;
 }
 #mainNavbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
     transition: .3s;
 }
 #mainNavbar .nav-link{
@@ -78,6 +82,12 @@ h1, h2, h3, h4, h5, h6,
 }
 .br-1{
     border-radius:1rem;
+}
+.br-1-5{
+    border-radius: 1.5rem;
+}
+.br-2{
+    border-radius: 2rem;
 }
 .diagonal-line{
     position: relative;
@@ -214,4 +224,81 @@ section{
     height:100%;
     width:100%;
     border-radius: .5rem;
+}
+
+.ribbon {
+    transform: scale(0.7) translate(-28px, -28px);
+    width: 157px;
+    height: 149px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #b9a329;
+}
+
+.ribbon span {
+    position: absolute;
+    z-index: 4;
+    display: block;
+    width: 243px;
+    padding: 15px 0;
+    background-color: #dfd21f;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font: 700 16px/1 'Inter', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ribbon-top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+    top: 0;
+    right: 9px;
+}
+
+.ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+}
+
+.ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 767px) {
+    .hero-title{
+        font-size: 3rem;
+    }
+    .hero{
+        overflow: hidden;
+        height: 90vh;
+    }
+    .hero-content{
+        height: 90vh;
+        padding-top: 0px;
+    }
+    .hero-background{
+        height: 100%;
+        width: auto;
+    }
 }

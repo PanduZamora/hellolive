@@ -15,21 +15,21 @@
     <!-- SWIPER JS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- NAVIGATION SECTION -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-transparent" id="mainNavbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="mainNavbar">
         <div class="container">
           <a class="navbar-brand" href="#">
-              <img src="images/logo.svg" alt="Logo Hellolive" width="120">
+              <img src="images/logo.svg" alt="Logo Hellolive" width="130">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <!-- <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">About Hellolive</a>
               </li>
@@ -44,7 +44,7 @@
                     Contact us
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
     </nav>
@@ -71,13 +71,13 @@
                             Start an event
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-none d-md-block">
                         <img 
                             src="images/gallery/hellolive-1.jpg" 
                             class="hero-img-1 mb-5 shadow-lg br-1 ms-auto d-block" alt="Hellolive Podcast Room"
                         />
                         <img 
-                            src="images/gallery/hellolive-2.jpg" 
+                            src="images/gallery/5.jpg" 
                             class="hero-img-2 shadow-lg br-1" 
                             alt="Hellolive Webinar"
                         />
@@ -89,16 +89,17 @@
     <!-- END OF HERO SECTION -->
 
     <!-- ABOUT HELLOLIVE SECTION -->
-    <section class="section-100">
+    <section class="section-120">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5 diagonal-line">
-                    <h1 class="display-1 fw-bold text-dark-blue">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <img src="images/thumbnail.png" class="img-fluid br-1" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="fw-bold mb-4 text-dark-blue">
                         What is Hellolive?
                     </h1>
-                </div>
-                <div class="col-md-7">
-                    <p class="lead">
+                    <p>
                         Hellolive adalah ruang studio multifungsi dengan fasilitas dan peralatan rekaman lengkap yang dapat digunakan sebagai ruang podcast atau event online dan ideal bagi kalangan profesional maupun non-profesional.
                     </p>
                 </div>    
@@ -108,7 +109,7 @@
     <!-- END OF ABOUT HELLOLIVE SECTION -->
 
     <!-- SWIPER STREAMING PLATFORM -->
-    <section class="section-60 pt-0">
+    <section class="py-4">
         <div class="container">
             <div class="swiper-streaming-platform">
                 <div class="swiper-wrapper">
@@ -141,10 +142,7 @@
 
     <!-- FACILITES SECTION -->
     <section 
-            class="section-100" 
-            style="
-                background: rgb(232 241 255);
-                background: linear-gradient(0deg, rgb(232 241 255) 0%, rgba(255,255,255,0) 100%);"
+            class="section-100"
     >
         <div class="container">
             <div class="row justify-content-center">
@@ -261,10 +259,15 @@
     <!-- CALL TO ACTION -->
     <section class="section-80 bg-dark-blue p-relative bg-gradient-blue">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <p class="text-uppercase ls-10 text-light mb-0 fs-1">Start your event now</p>
+            <div class="d-md-flex justify-content-between align-items-center">
+                <p class="text-uppercase ls-10 text-light mb-4 mb-md-0 fs-1">Start your event now</p>
                 <div>
-                    <a href="#" class="btn btn-light shadow btn-lg mb-0 fw-500 text-inter">
+                    <a 
+                        href="#" 
+                        class="btn btn-light shadow btn-lg mb-0 fw-500 text-inter"
+                        data-bs-toggle="modal"
+                        data-bs-target="#contactUsModal"
+                    >
                         <i data-feather="phone" class="me-2"></i>
                         Contact us
                     </a>
@@ -275,7 +278,7 @@
     <!-- END CALL TO ACTION -->
 
     <!-- START GALLERY SECTION -->
-    <section class="section-120" style="background: #e3e8f3">
+    <section class="section-120">
         <div class="container">
             <div class="col-12 text-center">
                 <h1 class="fw-bold fs-1 mb-7">
@@ -286,36 +289,75 @@
             </div>
             <div id="container" class="cols">
                 <div class="box one">
-                    <img src="images/gallery/hellolive-1.jpg" class="masonry-img">
+                    <img src="images/clients/1.jpg" class="masonry-img">
                 </div>
                 <div class="box two">
-                    <img src="images/gallery/hellolive-2.jpg" class="masonry-img">
+                    <img src="images/clients/2.jpg" class="masonry-img">
                 </div>
                 <div class="box three">
-                    <img src="images/gallery/hellolive-3.jpg" class="masonry-img">
-                </div>
-                <div class="box four">
                     <img src="images/gallery/hellolive-4.jpg" class="masonry-img">
                 </div>
+                <div class="box four">
+                    <img src="images/clients/3.jpg" class="masonry-img">
+                </div>
                 <div class="box five">
-                    <img src="images/gallery/hellolive-5.jpg" class="masonry-img">
+                    <img src="images/gallery/10.jpg" class="masonry-img">
                 </div>
                 <div class="box six">
-                    <img src="images/gallery/hellolive-1.jpg" class="masonry-img">
+                    <img src="images/gallery/6.jpg" class="masonry-img">
                 </div>
             </div>
         </div>
     </section>
     <!-- END OF GALLERY SECTION -->
 
-    <!-- START PACKAGE SECTION -->
+    <!-- START LOCATION SECTION -->
+
+    <section class="section-120"  style="background-color: #58c7e1;
+    background-image: linear-gradient(115deg, #58c7e1 0%, #B721FF 100%);
     
-    <section class="section-120 bg-gradient-blue">
+    ">
         <div class="container">
-            <h1 class="text-center display-4 fw-bold text-light mb-5">Package</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card bg-light py-5 rounded-3 z-3 shadow">
+                    <h1 class="display-2 fw-bold mb-7 text-light">Our Location</h1>
+                </div>
+                <div class="col-md-8">
+                    <div class="row justify-content-center">
+                        <div class="col-md-5">
+                            <div class="card border-0 shadow br-1 p-1">
+                                <div class="card-body">
+                                    <img src="images/podcast-room.jpg" class="img-fluid br-1 shadow mb-4" alt="Centennial Tower" />
+                                    <p class="fs-4 fw-bold">Centennial Tower</p>
+                                    <p>Level 29F, Jl. Jendral Gatot Subroto No. 27 Jakarta Selatan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card border-0 shadow br-1 p-1" style="background-color: rgba(255,255,255, 0.7)">
+                                <div class="ribbon ribbon-top-left"><span>Coming Soon</span></div>
+                                <div class="card-body">
+                                    <img src="images/mrt-bundaran-hi.jpg" class="img-fluid br-1 shadow mb-4" alt="Centennial Tower" />
+                                    <p class="fs-4 fw-bold">MRT Bundaran HI</p>
+                                    <p>Jl. MH Thamrin, Gondangdia, Menteng, Jakarta Pusat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF LOCATION SECTION -->
+
+    <!-- START PACKAGE SECTION -->
+    <section class="section-120 bg-gradient-blue">
+        <div class="container">
+            <h1 class="text-center display-4 fw-bold text-light mb-6">Package</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-1.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
                             <h3 class="fw-bold text-dark-blue mb-4">
@@ -324,7 +366,14 @@
                             <h5 class="mb-5">
                                 IDR 500.000 / Hour
                             </h5>
-                            <a href="#" class="btn btn-primary shadow">Hubungi Kami</a>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
                         </div>
                     </div>
                     <div class="card bg-light pt-5" style="margin-top: -2rem;">
@@ -347,7 +396,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-light py-5 rounded-3 z-3 shadow">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-2.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
                             <h3 class="fw-bold text-dark-blue mb-4">
@@ -392,7 +441,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-light py-5 rounded-3 z-3 shadow">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-3.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
                             <h3 class="fw-bold text-dark-blue mb-4">
@@ -434,6 +483,92 @@
     
     <!-- END OF PACKAGE SECTION -->
 
+    <!-- START CONTACT US SECTION -->
+    
+    <section class="section-100" style="background: #f5f6f8">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow-lg border-0 br-1 py-4 px-3">
+                        <div class="card-body">
+                            <h1 class="text-center fw-bold mb-6">Get In Touch</h1>
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="text" class="form-control" id="phone">
+                                  </div>
+
+                                  <div class="mb-5">
+                                    <label for="adress" class="form-label">Adress</label>
+                                    <textarea class="form-control" id="adress"></textarea>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary w-100">
+                                      Submit
+                                  </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- END OF CONTACT US SECTION -->
+
+
+    <!-- START MODAL SECTION -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">
+                        Hubungi Kami
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phone">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="adress" class="form-label">Adress</label>
+                            <textarea class="form-control" id="adress"></textarea>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL SECTION -->
+
 </body>
 
 <!-- BOOTSTRAP JS -->
@@ -444,7 +579,7 @@
     const swiper = new Swiper('.swiper-streaming-platform', {
         direction: 'horizontal',
         slidesPerView: 5,
-        spaceBetween: 60,
+        spaceBetween: 100,
         autoplay: {
             delay: 2000
         },

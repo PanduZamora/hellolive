@@ -285,6 +285,11 @@ section{
     transform: rotate(-45deg);
 }
 
+#facilities-section img{
+    height: 60px;
+    width: auto;
+}
+
 @media (max-width: 767px) {
     .hero-title{
         font-size: 3rem;
@@ -300,5 +305,50 @@ section{
     .hero-background{
         height: 100%;
         width: auto;
+    }
+    .btn-lg{
+        font-size: 1rem;
+        padding: .65rem 1.25rem;
+    }
+    .btn-lg svg{
+        width: 20px;
+        height: 20px;
+    }
+    .cols {
+        -moz-column-count:2;
+        -moz-column-gap: 16px;
+        -moz-column-width: 30%;
+        -webkit-column-count:2;
+        -webkit-column-gap: 16px;
+        -webkit-column-width: 30%;
+        column-count: 2;
+        column-gap: 16px;
+        column-width: 30%;
+    }
+    .box {
+        margin-bottom: 16px;
+        position: relative;
+    }
+    .box.one {
+        height: 150px;
+    }
+    .box.two {
+        height: 300px;
+    }
+    .box.three {
+        height: 250px;
+    }
+    .box.four {
+        height: 200px;
+    }
+    .box.five {
+        height: 300px;
+    }
+    .box.six {
+        height: 150px;
+    }
+    #facilities-section img{
+        height: 40px;
+        width:auto;
     }
 }

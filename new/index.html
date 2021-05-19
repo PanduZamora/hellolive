@@ -67,7 +67,12 @@
                             <i data-feather="circle" class="feather-10 feather-filled mx-1"></i>
                             <span>Liveroom</span>
                         </h4>
-                        <a href="#" class="btn btn-primary btn-lg shadow">
+                        <a 
+                            href="#" 
+                            class="btn btn-primary btn-lg shadow"
+                            data-bs-toggle="modal"
+                            data-bs-target="#contactUsModal"
+                        >
                             Start an event
                         </a>
                     </div>
@@ -143,6 +148,7 @@
     <!-- FACILITES SECTION -->
     <section 
             class="section-100"
+            id="facilities-section"
     >
         <div class="container">
             <div class="row justify-content-center">
@@ -151,10 +157,10 @@
                     <p class="text-secondary mb-4">Ruang Hellolive dilengkapi dengan set peralatan rekaman lengkap untuk mengakomodir kebutuhan Anda.</p>
                 </div>
                 <div class="col-10">
-                    <div class="row py-5 gy-5">
+                    <div class="row py-5 gy-3 gy-md-5">
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/mic.svg" height="60" alt="Microphone">
+                                <img src="images/icons/mic.svg" alt="Microphone">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Microphone</p>
                                 </div>
@@ -162,7 +168,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/mixer.svg" height="60" alt="Microphone">
+                                <img src="images/icons/mixer.svg" alt="Microphone">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Mixer</p>
                                 </div>
@@ -170,7 +176,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/sound.svg" height="60" alt="Sound Card">
+                                <img src="images/icons/sound.svg" alt="Sound Card">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Sound Card</p>
                                 </div>
@@ -178,7 +184,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/chair.svg" height="60" alt="Chairs">
+                                <img src="images/icons/chair.svg" alt="Chairs">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Chairs</p>
                                 </div>
@@ -186,7 +192,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/table.svg" height="60" alt="Table">
+                                <img src="images/icons/table.svg" alt="Table">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Table</p>
                                 </div>
@@ -194,7 +200,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/pc.svg" height="60" alt="Set PC">
+                                <img src="images/icons/pc.svg" alt="Set PC">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Set PC</p>
                                 </div>
@@ -202,7 +208,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/headphone.svg" height="60" alt="Headphones">
+                                <img src="images/icons/headphone.svg" alt="Headphones">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Headphones</p>
                                 </div>
@@ -210,7 +216,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/camera.svg" height="60" alt="High Resolution Camera">
+                                <img src="images/icons/camera.svg" alt="High Resolution Camera">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">High Resolution Camera</p>
                                 </div>
@@ -218,7 +224,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/wifi.svg" height="60" alt="High Speed Internet">
+                                <img src="images/icons/wifi.svg" alt="High Speed Internet">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">High Speed Internet</p>
                                 </div>
@@ -226,7 +232,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/tv.svg" height="60" alt="LCD TV">
+                                <img src="images/icons/tv.svg" alt="LCD TV">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">LCD TV</p>
                                 </div>
@@ -234,7 +240,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/freeflow.svg" height="60" alt="Free Flow Refreshment">
+                                <img src="images/icons/freeflow.svg" alt="Free Flow Refreshment">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Free Flow Refreshment</p>
                                 </div>
@@ -242,7 +248,7 @@
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
-                                <img src="images/icons/lighting.svg" height="60" alt="Lighting">
+                                <img src="images/icons/lighting.svg" alt="Lighting">
                                 <div class="card-body text-center">
                                     <p class="text-dark-blue fw-500">Lighting</p>
                                 </div>
@@ -259,7 +265,7 @@
     <!-- CALL TO ACTION -->
     <section class="section-80 bg-dark-blue p-relative bg-gradient-blue">
         <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
+            <div class="d-md-flex justify-content-between align-items-center text-center text-md-start">
                 <p class="text-uppercase ls-10 text-light mb-4 mb-md-0 fs-1">Start your event now</p>
                 <div>
                     <a 
@@ -283,7 +289,7 @@
             <div class="col-12 text-center">
                 <h1 class="fw-bold fs-1 mb-7">
                     We have accomodate multiple events
-                    <br />
+                    <br class="d-none d-md-block" />
                     now it’s your turn
                 </h1>
             </div>
@@ -318,12 +324,12 @@
     
     ">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center text-md-start">
                     <h1 class="display-2 fw-bold mb-7 text-light">Our Location</h1>
                 </div>
-                <div class="col-md-8">
-                    <div class="row justify-content-center">
+                <div class="col-10 col-md-8">
+                    <div class="row justify-content-center g-4">
                         <div class="col-md-5">
                             <div class="card border-0 shadow br-1 p-1">
                                 <div class="card-body">
@@ -355,8 +361,8 @@
     <section class="section-120 bg-gradient-blue">
         <div class="container">
             <h1 class="text-center display-4 fw-bold text-light mb-6">Package</h1>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row g-4 justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-4">
                     <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-1.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
@@ -395,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-10 col-md-4">
                     <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-2.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
@@ -405,7 +411,14 @@
                             <h5 class="mb-5">
                                 IDR 2.000.000 / Hour
                             </h5>
-                            <a href="#" class="btn btn-primary shadow">Hubungi Kami</a>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
                         </div>
                     </div>
                     <div class="card bg-light pt-5" style="margin-top: -2rem;">
@@ -440,7 +453,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-10 col-md-4">
                     <div class="card bg-light py-5 br-1 z-3 shadow">
                         <img src="images/icons/package-3.svg" class="w-50 d-block mx-auto">
                         <div class="card-body text-center">
@@ -450,7 +463,14 @@
                             <h5 class="mb-5">
                                 Negotiable Price
                             </h5>
-                            <a href="#" class="btn btn-primary shadow">Hubungi Kami</a>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
                         </div>
                     </div>
                     <div class="card bg-light pt-5" style="margin-top: -2rem;">
@@ -488,7 +508,7 @@
     <section class="section-100" style="background: #f5f6f8">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-11 col-md-6">
                     <div class="card shadow-lg border-0 br-1 py-4 px-3">
                         <div class="card-body">
                             <h1 class="text-center fw-bold mb-6">Get In Touch</h1>

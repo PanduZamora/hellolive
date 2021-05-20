@@ -38,6 +38,13 @@ h1, h2, h3, h4, h5, h6,
     width: 100%;
     transition: .3s;
 }
+#mainNavbar .navbar-brand img{
+    width: 130px;
+    height: auto;
+}
+#mainNavbar .navbar-toggler{
+    border: 0;
+}
 #mainNavbar .nav-link{
     font-weight: 500;
     padding-left: .85rem;
@@ -297,6 +304,9 @@ section{
 }
 
 @media (max-width: 767px) {
+    .hero-subtitle{
+        font-size: 1.2rem;
+    }
     .hero-title{
         font-size: 3rem;
     }
@@ -339,19 +349,19 @@ section{
         height: 150px;
     }
     .box.two {
-        height: 300px;
+        height: 250px;
     }
     .box.three {
-        height: 250px;
+        height: 180px;
     }
     .box.four {
         height: 200px;
     }
     .box.five {
-        height: 300px;
+        height: 250px;
     }
     .box.six {
-        height: 150px;
+        height: 130px;
     }
     #facilities img{
         height: 40px;
@@ -362,5 +372,17 @@ section{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    #mainNavbar .navbar-brand img{
+        width:90px;
+        height: auto;
+    }
+    #navbarNav{
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #navbarNav .btn-primary{
+        margin-top: 2rem;
     }
 }

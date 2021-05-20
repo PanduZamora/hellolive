@@ -1,7 +1,9 @@
 const BODY = document.getElementsByTagName('body')[0];
 const APP_NAVBAR = document.getElementById('mainNavbar');
 const LINKS = document.querySelectorAll(".smooth-scroll");
+
 let section = []
+
 for(const LINK of LINKS){
     section.push({
         id: LINK.getAttribute('href'),
@@ -17,12 +19,8 @@ function reset(){
     })
 }
 
-BODY.onscroll = function(){
-    if(window.scrollY > 80){
-        APP_NAVBAR.classList.add('navbar-scrolled');
-    }else{
-        APP_NAVBAR.classList.remove('navbar-scrolled');
-    }
+function setActiveLink(){
+
     section.forEach((k, i) => {
         if(window.scrollY > k.offset){
             reset()
@@ -35,8 +33,27 @@ BODY.onscroll = function(){
         }else{
             k.active = false
         }
-        console.log(section)
     })
+
+}
+
+function changeNavbarBg(){
+    
+    if(window.scrollY > 80){
+        APP_NAVBAR.classList.add('navbar-scrolled');
+    }else{
+        APP_NAVBAR.classList.remove('navbar-scrolled');
+    }
+
+}
+
+BODY.onscroll = function(){
+
+    setActiveLink();
+
+    changeNavbarBg();
+    
+
 }
 
 
@@ -50,8 +67,26 @@ function onClickHandler(e){
     const OFFSET_TOP  = document.querySelector(DESTINATION).offsetTop;
 
     scroll({
-        top: OFFSET_TOP,
+        top: OFFSET_TOP + 10,
         behavior: "smooth"
     });
+
 }
 
+const NAVBAR_TOGGLER = document.getElementById('navbar-toggler');
+let isNavbarActive = false;
+
+NAVBAR_TOGGLER.addEventListener('click', navbarTogglerClick);
+
+function navbarTogglerClick(){
+    
+    if(window.scrollY < 80){
+        isNavbarActive = !isNavbarActive;
+        if(isNavbarActive){
+            document.getElementById('mainNavbar').classList.add('navbar-scrolled');
+        }else{
+            document.getElementById('mainNavbar').classList.remove('navbar-scrolled');
+        }
+    }
+
+}

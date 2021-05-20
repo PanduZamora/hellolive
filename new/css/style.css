@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6,
     width: 64px;
     height: 64px;
     text-align: center;
-    line-height: 65px;
+    line-height: 62.5px;
     border-radius: 50%;
     left: 50px;
     right: auto !important;
@@ -40,13 +40,13 @@ h1, h2, h3, h4, h5, h6,
   .back-to-top img {
       color: #fff;
       height: 42px;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
   }
   @media (max-width: 768px) {
     .back-to-top{
-      right: -15px !important;
-      left: auto !important;
-      bottom: 70px;
+        right: 25px !important;
+        left: auto !important;
+        bottom: 40px;
     }
   }
   

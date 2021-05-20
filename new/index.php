@@ -262,6 +262,10 @@
     </section>
     <!-- END OF FACILITES SECTION -->
 
+    <!-- WA Button -->
+    <a href="http://bit.ly/vofficestudio" class="back-to-top" target="_blank"><i class="" ></i><img src="images/icons/whatsapp.svg" alt=""></a>
+
+
     <!-- CALL TO ACTION -->
     <section class="section-80 bg-dark-blue p-relative bg-gradient-blue">
         <div class="container">

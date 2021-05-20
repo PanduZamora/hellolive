@@ -9,6 +9,56 @@ h1, h2, h3, h4, h5, h6,
 .text-inter {
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Back to top button */
+
+.back-to-top {
+    position: fixed;
+    background: #25D366;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    left: 50px;
+    right: auto !important;
+    bottom: 20px;
+    font-weight:400;
+    z-index: 99;
+    -webkit-box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.6);
+    box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.6);
+  }
+  
+  .back-to-top i {
+    padding-top: 18px;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .back-to-top img {
+      color: #fff;
+      height: 42px;
+      margin-bottom: 8px;
+  }
+  @media (max-width: 768px) {
+    .back-to-top{
+      right: -15px !important;
+      left: auto !important;
+      bottom: 70px;
+    }
+  }
+  
+  @keyframes shadow-pulse {
+      0% {
+          box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.3);
+      }
+      100% {
+          box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+      }
+  }
+
 .hero{
     position: relative;
 }

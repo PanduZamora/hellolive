@@ -512,7 +512,10 @@
                     <div class="card shadow-lg border-0 br-1 py-4 px-3">
                         <div class="card-body">
                             <h1 class="text-center fw-bold mb-6">Get In Touch</h1>
-                            <form action="">
+                            <form class="form-email">
+
+                                <input type="text" name="virtualofficeads" hidden="hidden" value="virtualofficeads" class="field-changer">
+
                                 <div class="mb-3">
                                     <label for="email" class="form-label">Email address</label>
                                     <input type="email" class="form-control" id="email">
@@ -627,5 +630,6 @@
 
 <!-- APP JS -->
 <script src="js/main.js"></script>
+<script src="js/scripts.js"></script>
 
 </html>

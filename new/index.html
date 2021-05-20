@@ -20,7 +20,7 @@
 
 <body>
     <!-- NAVIGATION SECTION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="mainNavbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" id="mainNavbar">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="images/logo.svg" alt="Logo Hellolive" width="130">
@@ -29,22 +29,22 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <!-- <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Hellolive</a>
+                <a class="nav-link smooth-scroll" aria-current="page" href="#about">About Hellolive</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Facility</a>
+                <a class="nav-link smooth-scroll" href="#facilities">Facility</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Package</a>
+                <a class="nav-link smooth-scroll" href="#package">Package</a>
               </li>
               <li class="nav-item ms-3">
-                <a class="btn btn-primary" href="#">
+                <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#contactUsModal">
                     Contact us
                 </a>
               </li>
-            </ul> -->
+            </ul>
           </div>
         </div>
     </nav>
@@ -94,7 +94,7 @@
     <!-- END OF HERO SECTION -->
 
     <!-- ABOUT HELLOLIVE SECTION -->
-    <section class="section-120">
+    <section class="section-120" id="about">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 mb-5 mb-md-0">
@@ -128,7 +128,7 @@
                         <img src="images/logo/live-ig.png" class="img-fluid" alt="Instagram Live" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/logo/periscope.png" height="80" class="mx-auto d-block" alt="Periscope" />
+                        <img src="images/logo/periscope.png" class="height-80-xs" alt="Periscope" />
                     </div>
                     <div class="swiper-slide">
                         <img src="images/logo/vimeo-logo.png" class="img-fluid" alt="Vimeo" />
@@ -148,7 +148,7 @@
     <!-- FACILITES SECTION -->
     <section 
             class="section-100"
-            id="facilities-section"
+            id="facilities"
     >
         <div class="container">
             <div class="row justify-content-center">
@@ -161,7 +161,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/mic.svg" alt="Microphone">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Microphone</p>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/mixer.svg" alt="Microphone">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Mixer</p>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/sound.svg" alt="Sound Card">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Sound Card</p>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/chair.svg" alt="Chairs">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Chairs</p>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/table.svg" alt="Table">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Table</p>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/pc.svg" alt="Set PC">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Set PC</p>
                                 </div>
                             </div>
@@ -209,7 +209,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/headphone.svg" alt="Headphones">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Headphones</p>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/camera.svg" alt="High Resolution Camera">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">High Resolution Camera</p>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/wifi.svg" alt="High Speed Internet">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">High Speed Internet</p>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/tv.svg" alt="LCD TV">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">LCD TV</p>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/freeflow.svg" alt="Free Flow Refreshment">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Free Flow Refreshment</p>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
                         <div class="col-md-3 col-6">
                             <div class="card border-0 bg-transparent">
                                 <img src="images/icons/lighting.svg" alt="Lighting">
-                                <div class="card-body text-center">
+                                <div class="card-body text-center px-0 px-md-1">
                                     <p class="text-dark-blue fw-500">Lighting</p>
                                 </div>
                             </div>
@@ -358,7 +358,7 @@
     <!-- END OF LOCATION SECTION -->
 
     <!-- START PACKAGE SECTION -->
-    <section class="section-120 bg-gradient-blue">
+    <section class="section-120 bg-gradient-blue" id="package">
         <div class="container">
             <h1 class="text-center display-4 fw-bold text-light mb-6">Package</h1>
             <div class="row g-4 justify-content-center justify-content-md-start">
@@ -598,8 +598,20 @@
 <script>
     const swiper = new Swiper('.swiper-streaming-platform', {
         direction: 'horizontal',
-        slidesPerView: 5,
-        spaceBetween: 100,
+        breakpoints: {
+            320: {
+                slidesPerView: 3,
+                spaceBetween: 50
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 80
+            },
+            768: {
+                slidesPerView: 5,
+                spaceBetween: 100
+            }
+        },
         autoplay: {
             delay: 2000
         },

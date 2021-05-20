@@ -35,16 +35,16 @@ h1, h2, h3, h4, h5, h6,
     padding-bottom: 0;
 }
 #mainNavbar{
-    position: absolute;
-    top: 0;
     width: 100%;
-    z-index: 3;
     transition: .3s;
 }
 #mainNavbar .nav-link{
-    font-weight: 800;
+    font-weight: 500;
     padding-left: .85rem;
     padding-right: .85rem;
+}
+#mainNavbar .active {
+    font-weight: 800
 }
 #mainNavbar.navbar-scrolled{
     background: rgb(255,255,255) !important;
@@ -285,9 +285,15 @@ section{
     transform: rotate(-45deg);
 }
 
-#facilities-section img{
+#facilities img{
     height: 60px;
     width: auto;
+}
+.height-80-xs{
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 767px) {
@@ -347,8 +353,14 @@ section{
     .box.six {
         height: 150px;
     }
-    #facilities-section img{
+    #facilities img{
         height: 40px;
         width:auto;
+    }
+    .height-80-xs{
+        height: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -514,7 +514,7 @@
                             <h1 class="text-center fw-bold mb-6">Get In Touch</h1>
                             <form class="form-email">
 
-                                <input type="text" name="virtualofficeads" hidden="hidden" value="virtualofficeads" class="field-changer">
+                                <input type="text" name="hellolive_inquiry" hidden="hidden" value="hellolive_inquiry" class="field-changer">
 
                                 <div class="mb-3">
                                     <label for="email" class="form-label">Email address</label>
@@ -532,8 +532,8 @@
                                   </div>
 
                                   <div class="mb-5">
-                                    <label for="adress" class="form-label">Adress</label>
-                                    <textarea class="form-control" id="adress"></textarea>
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message"></textarea>
                                   </div>
 
                                   <button type="submit" class="btn btn-primary w-100">
@@ -561,7 +561,10 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="">
+                <form class="form-email">
+
+                        <input type="text" name="hellolive_inquiry" hidden="hidden" value="hellolive_inquiry" class="field-changer">
+
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email">

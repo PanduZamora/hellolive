@@ -1,459 +1,703 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Sewa Studio Podcast Jakarta Harga Terjangkau - Live @vOffice</title>
-    <meta name="description" content="Sewa Studio Podcast di Jakarta dengan Harga Terjangkau ✅ dilengkapi dengan set peralatan rekaman lengkap ✅ Set Microphone, Mixer, Sound Card, Headphones dan masih banyak lagi"/>
-
-    <meta name="robots" content="index,follow"/>
-    <META name="Author" content="vOffice.co.id">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellolive.id</title>
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Open+Sans:400,600&display=swap" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
-    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/card.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/theme-v2.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/custom-new.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/extra.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/ourpartner.min.css" rel="stylesheet" type="text/css">
-    <!--slide carousel-->
-    <link href="plugins/OwlCarousel2/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="plugins/OwlCarousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet">
-    <style media="screen">
-      .top-header{width:100%;height:80vh;background-size:cover!important;padding-top:35vh}.header-background{background-color:rgba(52,52,52,.5);position:absolute;top:0;bottom:0;left:0;right:0;z-index:0}.top-header h1, .top-header h5{z-index:1;position:relative;letter-spacing:3px;font-family:Montserrat,sans-serif;}
-      @-webkit-keyframes fadeIn{from{letter-spacing:8px;opacity:0}to{letter-spacing:2px;opacity:1}}
-      .custom-article{font-size: 15px;line-height: 23px;}
-      .open-sans{font-family: 'Open Sans', sans-serif;font-weight: 400;}
-      .parallax{width:100%;padding-top: 70px;padding-bottom: 70px;background:url(img/new/bg-jakarta.jpg) no-repeat center center;background-attachment: fixed;background-size:cover;}
-      .parallax p{line-height: 30px;}
-      .parallax-background{background-color:rgba(0, 0, 0, 0.69);position:absolute;top:0;bottom:0;left:0;right:0;z-index:0}
-      .box{
-        box-shadow:0px 10px 30px -1px rgba(0, 0, 0, 0.25) !important;
-        border-radius:20px;
-        padding:40px 15px;
-        margin-bottom: 30px;
-      }
-      section{
-        padding-top:100px;
-        padding-bottom:100px;
-      }
-      .box-feature{
-        padding-left: 15px;
-      }
-      .box-feature li{
-        background: #eff1f7;
-        font-size: 14px;
-        margin-bottom: 8px;
-        padding:8px;
-        border-radius: 8px;
-      }
-      .box-feature i{
-        color:rgb(45, 184, 89);
-        margin-right:10px;
-      }
-      .btn-success{
-        border:0;
-        color: white;
-        border-radius:8px;
-        border:2px solid #4cae4c;
-        letter-spacing: 0px;
-      }
-      .btn-success:hover{
-        background: #379037;
-      }
-
-
-      @media (max-width: 768px) {
-        section{
-          padding-top:40px;
-          padding-bottom:40px;
-        }
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-<?php include 'header.html' ?>
-
-<div class="main-container">
-
-  <section class="top-header text-left" style="background:url(images/podcast-room.jpg) no-repeat center center fixed;position:relative">
-    <div style="position:absolute; top:0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5);width:100%; height: 100%"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1 class="color-white bold">Bring Your Events to Live</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7">
-          <h3 class="montserrat-bold bold" style="margin-top:50px;">Apa itu Hellolive?</h3>
-          <p class="open-sans custom-article color-black">
-            Hellolive adalah ruang studio multifungsi dengan fasilitas dan peralatan rekaman lengkap yang dapat digunakan sebagai ruang podcast atau event online dan ideal bagi kalangan profesional maupun non-profesional.
-          </p>
-        </div>
-        <div class="col-sm-5">
-
-          <div class="image-slider slider-arrow-controls controls-inside">
-              <ul class="slides">
-                  <li>
-                      <img src="images/2.jpg" width="100%" style="border-radius:15px;">
-                  </li>
-                  <li>
-                      <img src="images/3.jpg" width="100%" style="border-radius:15px;">
-                  </li>
-                  <li>
-                      <img src="images/4.jpg" width="100%" style="border-radius:15px;">
-                  </li>
-                  <li>
-                      <img src="images/5.jpg" width="100%" style="border-radius:15px;">
-                  </li>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="row mb56">
-        <div class="col-sm-12">
-          <h2 class="text-center bold">Apa yang tersedia di Hellolive?</h2>
-          <p class="text-center text-muted">Ruang Hellolive dilengkapi dengan set peralatan rekaman lengkap untuk mengakomodir kebutuhan Anda.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/microphone.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Set Microphone <br> (condenser, wireless, clip-on)</h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/vertical-settings-mixer.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Mixer<br><br> <br class="visible-xs hidden-sm"><br class="visible-xs hidden-sm"><br class="visible-xs hidden-sm"></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/medium-volume.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Sound Card<br><br></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/armchair.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Chairs<br><br></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/coffee-table.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Tables<br><br></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/workstation.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Set PC (for operating)<br><br></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/headphones.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Headphones<br><br></h5>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 text-center mb56">
-          <div class="">
-            <img src="https://img.icons8.com/dusk/64/000000/camcorder-pro.png" class="mb32"/>
-            <h5 class="mb10 bold text-secondary">Hi-Resolution Camera<br><br></h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container-fluid" style="padding:0;">
-      <div class="row">
-        <div class="col-sm-7">
-          <img src="images/6.jpg" width="100%" style="border-top-right-radius:15px;border-bottom-right-radius:15px;box-shadow:0px 10px 30px -1px rgba(41, 35, 88, 0.45) !important">
-        </div>
-        <div class="col-sm-4 col-sm-offset-1 col-xs-offset-1 mt56">
-          <h3 class="bold mb32">Amenities</h3>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            Koneksi Internet hingga 100mbps
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            Snacks
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            Free Flow Refreshment
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            LCD TV
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            Tablets
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            White Board & Spidol
-          </p>
-          <p style="font-size:16px;font-weight:400;" class="mb16">
-            <i class="fa fa-check text-success" style="margin-right:15px;"></i>
-            Kebutuhan event lainnya
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="bold text-center mb64">Package</h2>
-        </div>
-        <div class="col-sm-4">
-          <div class="box">
-            <div class="text-center">
-              <img src="images/1.png" class="mb32">
-            </div>
-            <h4 class="color-primary bold text-uppercase text-center">Live Room Rental </h4>
-            <h5 class="bold text-center">IDR 500,000/jam</h5>
-            <ul class="box-feature">
-              <li><i class="ti-check text-success"></i> Koneksi Internet hingga 100mbps</li>
-              <li><i class="ti-check text-success"></i> Podcast Equipment Set (2 Webcams, 2 Microphone, Sound Mixer, Sound Card)</li>
+    <!-- NAVIGATION SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" id="mainNavbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.svg" alt="Logo Hellolive">
+          </a>
+          <button class="navbar-toggler" type="button" id="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" aria-current="page" href="#about">About Hellolive</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#facilities">Facility</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#package">Package</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#contactUsModal">
+                    Contact us
+                </a>
+              </li>
             </ul>
-            <div class="text-center">
-              <a href="http://bit.ly/vofficestudio" class="btn btn-success">
-                <i class="fab fa-whatsapp"></i>
-                Hubungi Kami
-              </a>
-
-            </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="box">
-            <div class="text-center">
-              <img src="images/2.png" class="mb32">
-            </div>
-            <h4 class="color-primary bold text-uppercase text-center">All In One Package </h4>
-            <h5 class="bold text-center">IDR 2,000,000/jam</h5>
-            <ul class="box-feature">
-              <li><i class="ti-check text-success"></i> Koneksi Internet hingga 100mbps</li>
-              <li><i class="ti-check text-success"></i> Operator</li>
-              <li><i class="ti-check text-success"></i> Ticketing</li>
-              <li><i class="ti-check text-success"></i> Event Promotion</li>
-              <li><i class="ti-check text-success"></i> Additional Event Content</li>
-              <li><i class="ti-check text-success"></i> Recording</li>
-            </ul>
-            <div class="text-center">
-              <a href="http://bit.ly/vofficestudio" class="btn btn-success">
-                <i class="fab fa-whatsapp"></i>
-                Hubungi Kami
-              </a>
+    </nav>
+    <!-- END OF NAVIGATION SECTION -->
 
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <img src="images/background/hero-background.svg" class="hero-background" alt="Hellolive background">
+        <div class="hero-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pt-5">
+                        <h1 class="hero-title text-dark-blue mb-4">
+                            Bring your events to live
+                        </h1>
+                        <h4 class="hero-subtitle fw-regular mb-5" style="opacity: .9">
+                            <span>Podcast Studio</span>
+                            <i data-feather="circle" class="feather-10 feather-filled mx-1"></i>
+                            <span>Webinar</span>
+                            <i data-feather="circle" class="feather-10 feather-filled mx-1"></i>
+                            <span>Liveroom</span>
+                        </h4>
+                        <a 
+                            href="#" 
+                            class="btn btn-primary btn-lg shadow"
+                            data-bs-toggle="modal"
+                            data-bs-target="#contactUsModal"
+                        >
+                            Start an event
+                        </a>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img 
+                            src="images/gallery/hellolive-1.jpg" 
+                            class="hero-img-1 mb-5 shadow-lg br-1 ms-auto d-block" alt="Hellolive Podcast Room"
+                        />
+                        <img 
+                            src="images/gallery/5.jpg" 
+                            class="hero-img-2 shadow-lg br-1" 
+                            alt="Hellolive Webinar"
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-sm-4">
-          <div class="box">
-            <div class="text-center">
-              <img src="images/3.png" class="mb56">
-            </div>
-            <h4 class="color-primary bold text-uppercase text-center">Other service rent </h4>
-            <h5 class="bold text-center">Negotiable Price</h5>
-            <ul class="box-feature">
-              <li><i class="ti-arrow-circle-right text-success"></i> Videographer</li>
-              <li><i class="ti-arrow-circle-right text-success"></i> Photographer</li>
-              <li><i class="ti-arrow-circle-right text-success"></i> Social Media Promotion</li>
-              <li><i class="ti-arrow-circle-right text-success"></i> Operator</li>
-            </ul>
-            <div class="text-center">
-              <a href="http://bit.ly/vofficestudio" class="btn btn-success">
-                <i class="fab fa-whatsapp"></i>
-                Hubungi Kami
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+    <!-- END OF HERO SECTION -->
 
-  <div class="container mb30">
-      <div class="customer-logos slider">
-        <div class="slide"><img src="images/logo/youtube.png"></div>
-        <div class="slide"><img src="images/logo/zoom-logo.png"></div>
-        <div class="slide"><img src="images/logo/vimeo-logo.png"></div>
-        <div class="slide"><img src="images/logo/live-ig.png"></div>
-        <div class="slide"><img src="images/logo/google-meet.png"></div>
-        <div class="slide"><img src="images/logo/facebook-live.png"></div>
-        <div class="slide"><img src="images/logo/periscope.png" style="height:80px;width:auto;display:block;margin-left:auto;margin-right:auto;"></div>
-      </div>
-  </div>
+    <!-- ABOUT HELLOLIVE SECTION -->
+    <section class="section-120" id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <img src="images/thumbnail.png" class="img-fluid br-1" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="fw-bold mb-4 text-dark-blue">
+                        What is Hellolive?
+                    </h1>
+                    <p>
+                        Hellolive adalah ruang studio multifungsi dengan fasilitas dan peralatan rekaman lengkap yang dapat digunakan sebagai ruang podcast atau event online dan ideal bagi kalangan profesional maupun non-profesional.
+                    </p>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- END OF ABOUT HELLOLIVE SECTION -->
 
-  <section class="bg-secondary">
+    <!-- SWIPER STREAMING PLATFORM -->
+    <section class="py-4">
+        <div class="container">
+            <div class="swiper-streaming-platform">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/logo/facebook-live.png" class="img-fluid" alt="Facebook Live" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/google-meet.png" class="img-fluid" alt="Google Meet" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/live-ig.png" class="img-fluid" alt="Instagram Live" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/periscope.png" class="height-80-xs" alt="Periscope" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/vimeo-logo.png" class="img-fluid" alt="Vimeo" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/youtube.png" class="img-fluid" alt="Periscope" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/logo/zoom-logo.png" class="img-fluid" alt="Zoom" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SWIPER STREAMING PLATFORM -->
+
+    <!-- FACILITES SECTION -->
+    <section 
+            class="section-100"
+            id="facilities"
+    >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h1 class="fw-bold text-dark-blue">Hellolive Facilities</h1>
+                    <p class="text-secondary mb-4">Ruang Hellolive dilengkapi dengan set peralatan rekaman lengkap untuk mengakomodir kebutuhan Anda.</p>
+                </div>
+                <div class="col-10">
+                    <div class="row py-5 gy-3 gy-md-5">
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/mic.svg" alt="Microphone">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Microphone</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/mixer.svg" alt="Microphone">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Mixer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/sound.svg" alt="Sound Card">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Sound Card</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/chair.svg" alt="Chairs">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Chairs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/table.svg" alt="Table">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Table</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/pc.svg" alt="Set PC">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Set PC</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/headphone.svg" alt="Headphones">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Headphones</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/camera.svg" alt="High Resolution Camera">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">High Resolution Camera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/wifi.svg" alt="High Speed Internet">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">High Speed Internet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/tv.svg" alt="LCD TV">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">LCD TV</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/freeflow.svg" alt="Free Flow Refreshment">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Free Flow Refreshment</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <img src="images/icons/lighting.svg" alt="Lighting">
+                                <div class="card-body text-center px-0 px-md-1">
+                                    <p class="text-dark-blue fw-500">Lighting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END OF FACILITES SECTION -->
+
+    <!-- WA Button -->
+    <a href="http://bit.ly/vofficestudio" class="back-to-top" target="_blank"><i class="" ></i><img src="images/icons/whatsapp.svg" alt=""></a>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="section-80 bg-dark-blue p-relative bg-gradient-blue">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center text-center text-md-start">
+                <p class="text-uppercase ls-10 text-light mb-4 mb-md-0 fs-1">Start your event now</p>
+                <div>
+                    <a 
+                        href="#" 
+                        class="btn btn-light shadow btn-lg mb-0 fw-500 text-inter"
+                        data-bs-toggle="modal"
+                        data-bs-target="#contactUsModal"
+                    >
+                        <i data-feather="phone" class="me-2"></i>
+                        Contact us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CALL TO ACTION -->
+
+    <!-- START GALLERY SECTION -->
+    <section class="section-120">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h1 class="fw-bold fs-1 mb-7">
+                    We have accomodate multiple events
+                    <br class="d-none d-md-block" />
+                    now it’s your turn
+                </h1>
+            </div>
+            <div id="container" class="cols">
+                <div class="box one">
+                    <img src="images/clients/1.jpg" class="masonry-img">
+                </div>
+                <div class="box two">
+                    <img src="images/clients/2.jpg" class="masonry-img">
+                </div>
+                <div class="box three">
+                    <img src="images/gallery/hellolive-4.jpg" class="masonry-img">
+                </div>
+                <div class="box four">
+                    <img src="images/clients/3.jpg" class="masonry-img">
+                </div>
+                <div class="box five">
+                    <img src="images/gallery/10.jpg" class="masonry-img">
+                </div>
+                <div class="box six">
+                    <img src="images/gallery/6.jpg" class="masonry-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF GALLERY SECTION -->
+
+    <!-- START LOCATION SECTION -->
+
+    <section class="section-120"  style="background-color: #58c7e1;
+    background-image: linear-gradient(115deg, #58c7e1 0%, #B721FF 100%);
+    
+    ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center text-md-start">
+                    <h1 class="display-2 fw-bold mb-7 text-light">Our Location</h1>
+                </div>
+                <div class="col-10 col-md-8">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-5">
+                            <div class="card border-0 shadow br-1 p-1">
+                                <div class="card-body">
+                                    <img src="images/podcast-room.jpg" class="img-fluid br-1 shadow mb-4" alt="Centennial Tower" />
+                                    <p class="fs-4 fw-bold">Centennial Tower</p>
+                                    <p>Level 29F, Jl. Jendral Gatot Subroto No. 27 Jakarta Selatan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card border-0 shadow br-1 p-1" style="background-color: rgba(255,255,255, 0.7)">
+                                <div class="ribbon ribbon-top-left"><span>Coming Soon</span></div>
+                                <div class="card-body">
+                                    <img src="images/mrt-bundaran-hi.jpg" class="img-fluid br-1 shadow mb-4" alt="Centennial Tower" />
+                                    <p class="fs-4 fw-bold">MRT Bundaran HI</p>
+                                    <p>Jl. MH Thamrin, Gondangdia, Menteng, Jakarta Pusat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF LOCATION SECTION -->
+
+    <!-- START PACKAGE SECTION -->
+    <section class="section-120 bg-gradient-blue" id="package">
+        <div class="container">
+            <h1 class="text-center display-4 fw-bold text-light mb-6">Package</h1>
+            <div class="row g-4 justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-4">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
+                        <img src="images/icons/package-1.svg" class="w-50 d-block mx-auto">
+                        <div class="card-body text-center">
+                            <h3 class="fw-bold text-dark-blue mb-4">
+                                Live Room Rental
+                            </h3>
+                            <h5 class="mb-5">
+                                IDR 500.000 / Hour
+                            </h5>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card bg-light pt-5" style="margin-top: -2rem;">
+                        <div class="card-body">
+                            <p class="text-center fs-5 fw-bold mb-4 mt-3">Benefits</p>
+                            <ul class="list-group list-group-flush fw-500">
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Koneksi Internet hingga 100mbps
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Podcast Equipment Set <br>
+                                    <span class="text-secondary small">
+                                        (2 Webcams, 2 Microphone, Sound Mixer, Sound Card)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-4">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
+                        <img src="images/icons/package-2.svg" class="w-50 d-block mx-auto">
+                        <div class="card-body text-center">
+                            <h3 class="fw-bold text-dark-blue mb-4">
+                                All in One Package
+                            </h3>
+                            <h5 class="mb-5">
+                                IDR 2.000.000 / Hour
+                            </h5>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card bg-light pt-5" style="margin-top: -2rem;">
+                        <div class="card-body">
+                            <p class="text-center fs-5 fw-bold mb-4 mt-3">Benefits</p>
+                            <ul class="list-group list-group-flush fw-500">
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Koneksi Internet hingga 100mbps
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Operator
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Ticketing
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Event Promotion
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Additional Event Content
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="check" class="text-success"></i>
+                                    Recording
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-4">
+                    <div class="card bg-light py-5 br-1 z-3 shadow">
+                        <img src="images/icons/package-3.svg" class="w-50 d-block mx-auto">
+                        <div class="card-body text-center">
+                            <h3 class="fw-bold text-dark-blue mb-4">
+                                Other Service Rent
+                            </h3>
+                            <h5 class="mb-5">
+                                Negotiable Price
+                            </h5>
+                            <a 
+                                href="#" 
+                                class="btn btn-primary shadow" 
+                                data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal"
+                            >
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card bg-light pt-5" style="margin-top: -2rem;">
+                        <div class="card-body">
+                            <p class="text-center fs-5 fw-bold mb-4 mt-3">Choose one</p>
+                            <ul class="list-group list-group-flush fw-500">
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="chevron-right" class="text-success"></i>
+                                    Videographer
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="chevron-right" class="text-success"></i>
+                                    Photographer
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="chevron-right" class="text-success"></i>
+                                    Social Media Promotion
+                                </li>
+                                <li class="list-group-item bg-transparent rounded-0">
+                                    <i data-feather="chevron-right" class="text-success"></i>
+                                    Operator
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- END OF PACKAGE SECTION -->
+
+    <!-- START CONTACT US SECTION -->
+    
+    <section class="section-100" style="background: #f5f6f8">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-6">
+                    <div class="card shadow-lg border-0 br-1 py-4 px-3">
+                        <div class="card-body">
+                            <h1 class="text-center fw-bold mb-6">Get In Touch</h1>
+                            <form class="form-email">
+
+                                <input type="text" name="hellolive_inquiry" hidden="hidden" value="hellolive_inquiry" class="field-changer">
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="text" class="form-control" id="phone">
+                                  </div>
+
+                                  <div class="mb-5">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message"></textarea>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary w-100">
+                                      Submit
+                                  </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- END OF CONTACT US SECTION -->
+
+
+    <!-- START MODAL SECTION -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">
+                        Hubungi Kami
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <form class="form-email">
+
+                        <input type="text" name="hellolive_inquiry" hidden="hidden" value="hellolive_inquiry" class="field-changer">
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phone">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message"></textarea>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Kirim</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL SECTION -->
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="footer bg-light">
+    
+    <section class="section">
+
+    <div class="footer-top">
+        <hr class="mt-4 border-footer">
       <div class="container">
-          <div class="row">
-              <a name="contactus"></a>
-              <!--<div class="row">-->
-              <div class="col-md-offset-3 col-md-6 well bg-white">
-                  <h4 class="text-center bold">Keep in Touch</h4>
-                  <p class="text-center bold"><span style="color: green" class="fab fa-whatsapp"></span>
-                      Whatsapp
-                      Number :
-                      <a href="tel:+6282299980022"> +62 822-4986-1244</a>
-                  </p>
-                  <p class="lang" key="wacaption">Whether it is an enquiries, a suggestion, or a
-                      complaint, please don't hesitate in contacting
-                      us. We will be more than glad to hear from you and we will respond to your request
-                      as soon
-                      as we can.</p>
-                  <form class="form-email"
-                        data-success="Thanks for your submission, we will be in touch shortly."
-                        data-error="Please fill all fields correctly.">
-                      <input type="text" name="hellolive_inquiry" hidden="hidden"
-                             value="hellolive_inquiry"
-                             id="hellolive_inquiry">
-                      <input hidden="" name="tracker" id="tracker" type="text" value="eventspace">
-                      <input type="text" class="validate-required" name="name" placeholder="Name">
-                      <input type="text" class="validate-required" name="phone" placeholder="Phone">
-                      <input type="text" class="validate-required validate-email" name="email"
-                             placeholder="Alamat Email">
-                <textarea class="validate-required" name="message" rows="4"
-                          placeholder="Pertanyaan atau komentar Anda"></textarea>
-                      <button type="submit" class="lang" key="send">Send</button>
-                  </form>
-              </div>
-              <!--</div>-->
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-12 footer-info">
+            <a href="index.php" class="logo d-flex align-items-center">
+              <img src="images/logo.svg" alt="Hellolive Logo">
+            </a>
+            <p class="about-footer">Hellolive adalah ruang studio multifungsi dengan fasilitas dan peralatan rekaman lengkap yang dapat digunakan sebagai ruang podcast atau event online dan ideal bagi kalangan profesional maupun non-profesional.</p>
+
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+            </div>
+
+            <div class="col-lg footer-links">
+                <h4>Useful Links</h4>
+                <p>
+                    <a href="index.php#about">About us</a>, 
+                    <a href="index.php#facilities">Facilities</a>, 
+                    <a href="index.php#package">Package</a>, 
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#contactUsModal">Contact Us</a>
+                </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
+            <h4 class="text-dark-blue contact-us">Contact Us</h4>
+            <p class="contact-us">
+              <strong class="strong-footer">Centennial Tower</strong><br>
+              Level 29 Unit D-F, Jl. Jend Gatot Suboto Kav 24-25, Karet Semanggi, Jakarta Selatan 12950<br><br>
+
+              <strong>Phone:</strong> +6221 2922 2999<br>
+              <strong>Whatsapp:</strong> <a href="http://bit.ly/vofficestudio"> +6282 2999 80022</a><br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="copyrights">
+          <div class="container text-center">
+              <span>© Copyright 2021 <a href="index.php">hellolive.id</a> - All Rights Reserved</span>
           </div>
       </div>
-  </section>
 
-  <a href="http://bit.ly/vofficestudio" class="back-to-top" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+    </div>
 
-<!--Modal Pop Up-->
-  <!--=======================================Modal Form========================================-->
-  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="emailUs" role="dialog" tabindex="-1">
-      <div class="modal-dialog modal-lg mb-xs-64">
-          <div class="modal-content">
-              <!-- Modal Header -->
-              <div class="modal-header clearfix">
-                  <button class="close" data-dismiss="modal" type="button">
-                      <span aria-hidden="true">
-                          ×
-                      </span>
-                      <span class="sr-only">
-                          Close
-                      </span>
-                  </button>
-                  <h5 class="modal-title text-center bold pt24" id="myModalLabel">
-                      Have a question or suggestion for us ?
-                  </h5>
-                  <p class="text-center">
-                      Fill out the form below and we'll get back to you
-                      right away. Thanks!
-                  </p>
-              </div>
-              <!--Modal Body-->
-              <form class="form-email" data-error="Please fill all fields correctly."
-                    data-success="Thanks for your submission, we will be in touch shortly.">
-                  <input hidden="hidden" id="contact_us" name="contact_us" type="text" value="contact_us">
-                  <div class="modal-body form-body clearfix">
-                      <div class="col-md-6">
-                          <p class="bold mb8">
-                              Which vOffice services you are interested to? *
-                          </p>
-                          <div class="select-option p0">
-                              <i class="ti-angle-down">
-                              </i>
-                              <select class="validate-required" name="service">
-                                  <option value="" selected disabled>-- Services Inquiries --</option>
-                                  <option value="Serviced Office">Serviced Office</option>
-                                  <option value="Virtual Office">Virtual Office</option>
-                                  <option value="Pembuatan PT & CV">Pembuatan PT & CV</option>
-                                  <option value="Ruang Meeting">Ruang Meeting</option>
-                                  <option value="Event Space">Event Space</option>
-                                  <option value="Layanan Penjawab Telepon">Layanan Penjawab Telepon</option>
-                              </select>
-                          </div>
-                      </div>
-                      <div class="col-md-6">
-                          <p class="bold mb8">
-                              Full Name *
-                          </p>
-                          <div class="select-option col-md-12 p0">
-                              <input class="validate-required" name="name" placeholder="Nama Lengkap" type="text">
-                          </div>
-                      </div>
-                      <div class="col-md-6">
-                          <label>
-                              Contact Number *
-                          </label>
-                          <input class="validate-required" name="phone" placeholder="Contact Number" type="text">
-                      </div>
-                      <div class="col-md-6">
-                          <label>
-                              Email Address *
-                          </label>
-                          <input class="validate-required" name="email" placeholder="Email Address" type="text">
-                      </div>
-                      <div class="col-md-12">
-                          <label>
-                              Any questions or comments ?
-                          </label>
-                                  <textarea class="" name="message" placeholder="Message">
-                                  </textarea>
-                      </div>
-                  </div>
-                  <div class="modal-footer clearfix">
-                      <div class="col-md-6 col-md-offset-3">
-                          <button type="submit">
-                              Submit
-                          </button>
-                      </div>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </div>
-  <!--=======================================End Of Modal Form========================================-->
+    </section>
 
-</div>
+  </footer>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/flexslider.min.js"></script>
-<script src="js/smooth-scroll.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/ourpartner.min.js"></script>
-<script src="plugins/OwlCarousel2/dist/owl.carousel.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){$(".testimonial-carousel").owlCarousel({items: 1,itemsDesktop: [1000, 1],itemsDesktopSmall: [979, 1],itemsTablet: [768, 1],pagination: true,navigation: false,navigationText: ["", ""],slideSpeed: 1000,autoPlay: true});});
-</script>
 </body>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<!-- SWIPER JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-streaming-platform', {
+        direction: 'horizontal',
+        breakpoints: {
+            320: {
+                slidesPerView: 3,
+                spaceBetween: 50
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 80
+            },
+            768: {
+                slidesPerView: 5,
+                spaceBetween: 100
+            }
+        },
+        autoplay: {
+            delay: 2000
+        },
+        loop: true
+    });
+</script>
+
+<!-- JQUERY CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- FEATHER ICONS -->
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+    feather.replace();
+</script>
+
+<!-- APP JS -->
+<script src="js/main.js"></script>
+<script src="js/scripts.js"></script>
+
 </html>

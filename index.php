@@ -640,7 +640,7 @@
               Level 29 Unit D-F, Jl. Jend Gatot Suboto Kav 24-25, Karet Semanggi, Jakarta Selatan 12950<br><br>
 
               <strong>Phone:</strong> +6221 2922 2999<br>
-              <strong>Whatsapp:</strong> <a href="http://bit.ly/vofficestudio"> +6282 2999 80022</a><br>
+              <strong>Whatsapp:</strong> <a href="http://bit.ly/vofficestudio" target="_blank"> +6282 2999 80022</a><br>
             </p>
 
           </div>

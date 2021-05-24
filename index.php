@@ -17,7 +17,7 @@
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="css/style.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
 </head>
 
 <body>

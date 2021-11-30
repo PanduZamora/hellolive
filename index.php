@@ -347,7 +347,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="card border-0 shadow br-1 p-1" style="background-color: rgba(255,255,255, 0.7)">
-                                <div class="ribbon ribbon-top-left"><span>Coming Soon</span></div>
+                                <div class="ribbon ribbon-top-left"><span>free trial</span></div>
                                 <div class="card-body">
                                     <img src="images/mrt-bundaran-hi.jpg" class="img-fluid br-1 shadow mb-4" alt="Centennial Tower" />
                                     <p class="fs-4 fw-bold">MRT Bundaran HI</p>
